@@ -115,6 +115,9 @@
     *{
         overflow: hidden;
     }
+    body{
+        height: 100vh;
+    }
     .logo {
         width: 135px;
         margin-top: 40px;
@@ -135,6 +138,7 @@
         font-size: 15px;
         padding-left: 15px;
         height: 50px;
+        background: transparent;
     }
     button{
         width: 310px;
@@ -149,21 +153,28 @@
         width: 128px;
         height: 116px;
     }
-    .cube-orange {
+    /* .cube-orange {
+        top: 283px;
+        left: 21px;
+        width: 110px;
+        height: 96px;
+        z-index: -1;
+    } */
+     .cube-orange {
         top: 462px;
         left: 21px;
         width: 110px;
         height: 96px;
         z-index: 999;
-    }
+    } 
     .cross-line-green {
         height: 30px;
-        bottom: 10%;
-        transform: rotate(-10deg);
+        bottom: 9%;
+        transform: rotate(-7deg);
     }
     .cross-line-pink {
-        height: 28px;
-        bottom: 8%;
+        height: 30px;
+        bottom: 7%;
         transform: rotate(9deg);
 }
     }
