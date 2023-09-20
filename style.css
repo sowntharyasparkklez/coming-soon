@@ -1,0 +1,139 @@
+@font-face {
+    font-family:"Outfit-Regular";
+    src: url("Outfit/static/Outfit-Regular.ttf");
+}
+@font-face {
+    font-family:"Outfit-Medium";
+    src: url("Outfit/static/Outfit-Medium.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#capetch-comingsoon{
+ width: 100%;
+ height: 100vh;
+ position: relative;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.logo{
+    width: 357px;
+    height: 162px;
+    margin-top: 65px;
+}
+h1 {
+    font-family: "Outfit-Medium";
+    font-weight: 500;
+    font-size: 120px;
+    padding-top: 25px;
+    text-align: center;
+}
+p{
+    font-family: "Outfit-Regular";
+    font-weight: 400;
+    font-size: 25px;
+    padding-top: 20px;
+    color: #A5A8AB;
+    width: 640px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 60px;
+}
+.email input{
+    font-family: "Outfit-Regular";
+    font-weight: 400;
+    font-size: 18px;
+    width: 408px;
+    height: 58px;
+    border: 1px solid #41464A;
+    border-radius: 30px;
+    color: #A5A8AB;
+    padding-left: 20px;
+    outline: none;
+}
+input:focus{
+    border: 1px solid orangered;
+    
+}
+ button{
+    font-family: "Outfit-Medium";
+    font-weight: 500;
+    font-size: 16px;
+    color: #1F272D;
+    width: 170px;
+    height: 58px;
+    border: 1px solid #1F272D;
+    border-radius: 40px;
+    background: transparent;
+    cursor: pointer;
+} 
+
+   
+    
+.cross-line-pink {
+    width: 100%;
+    height: 50px;
+    background: #F53580;
+     position: absolute;
+    bottom: 12%;
+    transform: rotate(3deg); 
+}
+.cross-line-green {
+    width: 100%;
+    height: 50px;
+    background: #B2E24B;
+    position: absolute;
+    bottom: 15%;
+    transform: rotate(-5deg); 
+     z-index: 99; 
+} 
+.cube-orange {
+    position: absolute;
+    top: 350px;
+    left: 90px;
+    width: 310px;
+    height: 280px;
+   /* animation: cube infinite 2s alternate-reverse; */
+} 
+@keyframes cube {
+    0%{
+        rotate: 0deg;
+    }
+    50%{
+        rotate: 45deg;
+    }
+    70%{
+        rotate: 90deg;
+    }
+    100%{
+        rotate: 45deg;
+    }
+}
+.cube-pink {
+    position: absolute;
+    top: 349px;
+    right: 229px;
+    width: 315px;
+    height: 290px;
+    /* animation: cube infinite 2s alternate-reverse; */
+}
+
