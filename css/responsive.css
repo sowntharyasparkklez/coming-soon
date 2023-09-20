@@ -112,51 +112,58 @@
     }
 }
 @media screen and (max-width:650px){
+    *{
+        overflow: hidden;
+    }
     .logo {
         width: 135px;
         margin-top: 40px;
     }
     h1 {
-        font-size: 35px;
+        font-size: 38px;
+        padding: 8px 10px 0px;
     }
     .content {
         padding: 0px 15px;
     }
     p{
         font-size: 15px;
+        padding-top: 5px;
     }
     .email input {
         width: 310px;
         font-size: 15px;
         padding-left: 15px;
+        height: 50px;
     }
     button{
         width: 310px;
+        height: 50px;
     }
     .button-container {
-        padding-top: 150px;
+        padding-top: 120px;
     }
     .cube-pink {
-        top: 230px;
+        top: 210px;
         right: 14px;
-        width: 150px;
-        height: 135px;
+        width: 128px;
+        height: 116px;
     }
     .cube-orange {
-        top: 545px;
-        left: 24px;
-        width: 130px;
-        height: 115px;
+        top: 462px;
+        left: 21px;
+        width: 110px;
+        height: 96px;
+        z-index: 999;
     }
     .cross-line-green {
-        height: 33px;
-        bottom: -25%;
+        height: 30px;
+        bottom: 10%;
         transform: rotate(-10deg);
-    
     }
     .cross-line-pink {
-        height: 30px;
-        bottom: -27%;
-        transform: rotate(7deg);
+        height: 28px;
+        bottom: 8%;
+        transform: rotate(9deg);
 }
     }
