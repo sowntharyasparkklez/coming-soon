@@ -184,6 +184,7 @@ button {
     width: 315px;
     height: 290px;
      animation: cube infinite 2s alternate-reverse; 
+     filter: blur(1.5px);
 }
 
 
@@ -221,3 +222,4 @@ button {
 .cross-line-pink .cb-tagreel-item{
     color: #fff;
 }
+/* 21/9 */
