@@ -133,17 +133,16 @@ button {
     position: absolute;
     bottom: 15%;
     transform: rotate(-5deg); 
-     z-index: 99; 
      overflow: hidden;
 } 
 .cube-orange {
     position: absolute;
     top: 350px;
+    z-index: 999;
     left: 90px;
     width: 310px;
     height: 280px;
    animation: cube-rev infinite 2s alternate-reverse;
-   filter: blur(1.5px);
 } 
 @keyframes cube-rev{
     0%{
@@ -185,7 +184,6 @@ button {
     width: 315px;
     height: 290px;
      animation: cube infinite 2s alternate-reverse; 
-     filter: blur(1.5px);
 }
 
 
