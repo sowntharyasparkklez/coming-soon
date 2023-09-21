@@ -143,6 +143,7 @@ button {
     width: 310px;
     height: 280px;
    animation: cube-rev infinite 2s alternate-reverse;
+   filter: blur(1.5px);
 } 
 @keyframes cube-rev{
     0%{
